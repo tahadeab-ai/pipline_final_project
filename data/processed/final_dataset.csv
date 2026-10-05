@@ -1,98 +1,60 @@
 student_id,student_name,age,major,city,gpa,attendance,status,course,semester,score,academic_honors,graduation_year,data_lineage,performance_level,attendance_status,academic_standing
-1001.0,Ahmed Ali,21.0,Computer Science,Sanaa,3.85,95.0,Active,Python Programming,Fall 2025,90.0,Dean's List,2026,CSV + API + DATABASE + MONGODB + WEB_SCRAPER,Excellent,Good,Passed
-1002.0,Sara Mohammed,22.0,Artificial Intelligence,Aden,3.45,88.0,Active,Python Programming,Fall 2025,92.0,Cum Laude,2025,CSV + API + DATABASE + MONGODB + WEB_SCRAPER,Very Good,Good,Passed
-1003.0,Omar Hassan,20.0,Information Systems,Taiz,3.1,90.0,Active,Database Systems,Fall 2025,78.0,None,2027,CSV + API + DATABASE + MONGODB + WEB_SCRAPER,Very Good,Good,Passed
-1004.0,Mona Saleh,23.0,Software Engineering,Ibb,3.1,72.0,Active,Data Structures,Fall 2025,84.0,,,CSV + API + DATABASE + MONGODB,Very Good,Low,Passed
-1005.0,Ali Ahmed,21.0,Computer Science,Sanaa,2.75,82.0,Active,Python Programming,Fall 2025,74.0,,,CSV + API + DATABASE + MONGODB,Good,Good,Passed
-1006.0,Huda Omar,19.0,Information Technology,Sanaa,3.6,65.0,Active,Database Systems,Fall 2025,91.0,,,CSV + API + DATABASE + MONGODB,Excellent,Low,Passed
-1008.0,Fatima Adel,24.0,Computer Science,Taiz,1.85,55.0,At Risk,Data Structures,Fall 2025,58.0,,,CSV + API + DATABASE + MONGODB,At Risk,Low,Failed
-1009.0,Yousef Taha,22.0,Information Systems,Aden,3.2,85.0,Active,Cloud Computing,Fall 2025,82.0,,,CSV + API + DATABASE + MONGODB,Very Good,Good,Passed
-1013.0,Bilal Karim,22.0,Computer Science,Taiz,2.9,78.0,Active,Data Structures,Fall 2025,80.0,,,CSV + API + DATABASE + MONGODB,Good,Good,Passed
-1015.0,Salem Ba-Wazir,,,Mukalla,3.85,97.0,,,,85.31,,,MONGODB,Excellent,Good,Passed
-1016.0,,,,Sanaa,2.6,68.0,,,,85.31,,,MONGODB,Good,Low,Passed
-1017.0,Waleed Al-Radaei,,,Dhamar,3.45,89.0,,,,85.31,,,MONGODB,Very Good,Good,Passed
-1020.0,Omar Al-Kahlani,,,Sanaa,3.75,95.0,,,,85.31,,,MONGODB,Excellent,Good,Passed
-1021.0,Emily Watson,,,London,3.9,98.0,,,,85.31,,,MONGODB,Excellent,Good,Passed
-1024.0,,,,Taiz,3.1,88.0,,,,85.31,,,MONGODB,Very Good,Good,Passed
-1025.0,Alexander Schmidt,,,Berlin,3.29,76.0,,,,85.31,,,MONGODB,Very Good,Good,Passed
-1027.0,Michael Chang,,,Toronto,1.8,65.0,,,,85.31,,,MONGODB,At Risk,Low,Passed
-1029.0,Chloe Dupont,,,Paris,3.85,92.0,,,,85.31,,,MONGODB,Excellent,Good,Passed
-1030.0,Yousef Al-Haddad,,,Mukalla,2.9,86.0,,,,85.31,,,MONGODB,Good,Good,Passed
-1031.0,Lucas Silva,,,Sao Paulo,3.2,84.0,,,,85.31,,,MONGODB,Very Good,Good,Passed
-1033.0,John Doe,,,Chicago,0.0,0.0,,,,85.31,,,MONGODB,At Risk,Low,Passed
-1034.0,Nasser Al-Awlaqi,,,Shabwah,3.5,75.0,,,,85.31,,,MONGODB,Excellent,Good,Passed
-1035.0,Sofia Rossi,,,Rome,3.95,99.0,,,,85.31,,,MONGODB,Excellent,Good,Passed
-1039.0,Mona Al-Sabahi,,,Sanaa,3.65,93.0,,,,85.31,,,MONGODB,Excellent,Good,Passed
-1040.0,David Kim,,,Seoul,4.0,100.0,,,,85.31,,,MONGODB,Excellent,Good,Passed
-1041.0,Hassan Al-Yamani,,,,1.2,45.0,,,,85.31,,,MONGODB,At Risk,Low,Passed
-1042.0,Anna Ivanova,,,Moscow,3.3,89.0,,,,85.31,,,MONGODB,Very Good,Good,Passed
-1043.0,,,,Amman,2.8,78.0,,,,85.31,,,MONGODB,Good,Good,Passed
-1045.0,Elena Garcia,,,Madrid,3.15,87.0,,,,85.31,,,MONGODB,Very Good,Good,Passed
-1047.0,James Wilson,,,Boston,3.29,86.0,,,,85.31,,,MONGODB,Very Good,Good,Passed
-1048.0,Samira Al-Huraibi,,,Ibb,3.7,96.0,,,,85.31,,,MONGODB,Excellent,Good,Passed
-1049.0,Arjun Patel,,,Mumbai,3.45,88.0,,,,85.31,,,MONGODB,Very Good,Good,Passed
-1051.0,Olivia Brown,,,Sydney,3.8,94.0,,,,85.31,,,MONGODB,Excellent,Good,Passed
-1052.0,Bashir Al-Thour,,,Sanaa,0.5,30.0,,,,85.31,,,MONGODB,At Risk,Low,Passed
-1054.0,Sultan Al-Shami,,,Hodeidah,2.95,81.0,,,,85.31,,,MONGODB,Good,Good,Passed
-1056.0,Noura Al-Amari,,,Aden,3.88,97.0,,,,85.31,,,MONGODB,Excellent,Good,Passed
-1057.0,Unknown_404,,,Virtual,2.0,55.0,,,,85.31,,,MONGODB,Acceptable,Low,Passed
-1058.0,Kenji Sato,,,Tokyo,3.5,90.0,,,,85.31,,,MONGODB,Excellent,Good,Passed
-1060.0,Amira Bouazizi,,,Tunis,3.35,86.0,,,,85.31,,,MONGODB,Very Good,Good,Passed
-1062.0,Ibrahim Al-Faqih,,,Taiz,3.9,95.0,,,,85.31,,,MONGODB,Excellent,Good,Passed
-1063.0,Fatou Diop,,,Dakar,3.25,83.0,,,,85.31,,,MONGODB,Very Good,Good,Passed
-1064.0,12345,,,Riyadh,1.9,70.0,,,,85.31,,,MONGODB,At Risk,Low,Passed
-1065.0,Huda Al-Ariqi,,,Aden,3.42,89.0,,,,85.31,,,MONGODB,Very Good,Good,Passed
-1066.0,George Miller,,,Manchester,3.29,64.0,,,,85.31,,,MONGODB,Very Good,Low,Passed
-1068.0,Zainab Al-Husseini,,,Baghdad,3.78,93.0,,,,85.31,,,MONGODB,Excellent,Good,Passed
-1069.0,Mia Hansen,,,Copenhagen,3.65,91.0,,,,85.31,,,MONGODB,Excellent,Good,Passed
-2001.0,Ahmed Al-Mutawakel,,,Sanaa,3.82,95.0,,,,85.31,,,MONGODB,Excellent,Good,Passed
-2002.0,Sarah Connor,,,London,3.45,88.0,,,,85.31,,,MONGODB,Very Good,Good,Passed
-2003.0,Mohammed Ba-Habib,,,Aden,2.9,75.0,,,,85.31,,,MONGODB,Good,Good,Passed
-2004.0,Jessica Miller,,,New York,3.95,98.0,,,,85.31,,,MONGODB,Excellent,Good,Passed
-2005.0,Ali Al-Sabry,,,Taiz,1.85,60.0,,,,85.31,,,MONGODB,At Risk,Low,Passed
-2006.0,Lucas Dubois,,,Paris,3.1,82.0,,,,85.31,,,MONGODB,Very Good,Good,Passed
-2007.0,Fatima Al-Hamdani,,,Sanaa,4.0,100.0,,,,85.31,,,MONGODB,Excellent,Good,Passed
-2008.0,Daniel Craig,,,Manchester,2.65,70.0,,,,85.31,,,MONGODB,Good,Low,Passed
-2009.0,Hisham Al-Khatib,,,Amman,3.3,85.0,,,,85.31,,,MONGODB,Very Good,Good,Passed
-2010.0,Elena Petrova,,,Moscow,3.75,92.0,,,,85.31,,,MONGODB,Excellent,Good,Passed
-2011.0,Yara Al-Baidhani,,,Ibb,3.6,94.0,,,,85.31,,,MONGODB,Excellent,Good,Passed
-2012.0,Marco Rossi,,,Rome,2.4,68.0,,,,85.31,,,MONGODB,Acceptable,Low,Passed
-2013.0,Khaled Al-Jaradi,,,Dhamar,3.15,80.0,,,,85.31,,,MONGODB,Very Good,Good,Passed
-2014.0,Sophie Martin,,,Lyon,3.88,96.0,,,,85.31,,,MONGODB,Excellent,Good,Passed
-2015.0,Sami Al-Qubati,,,Aden,2.1,55.0,,,,85.31,,,MONGODB,Acceptable,Low,Passed
-2016.0,Liam Smith,,,Toronto,3.52,89.0,,,,85.31,,,MONGODB,Excellent,Good,Passed
-2017.0,Bushra Al-Awadi,,,Sanaa,3.91,97.0,,,,85.31,,,MONGODB,Excellent,Good,Passed
-2018.0,Carlos Santana,,,Madrid,2.75,74.0,,,,85.31,,,MONGODB,Good,Low,Passed
-2019.0,Nabil Al-Madhaji,,,Taiz,3.2,83.0,,,,85.31,,,MONGODB,Very Good,Good,Passed
-2020.0,Emma Watson,,,Oxford,3.68,91.0,,,,85.31,,,MONGODB,Excellent,Good,Passed
-2021.0,Hamoud Al-Ansi,,,Sanaa,1.95,58.0,,,,85.31,,,MONGODB,At Risk,Low,Passed
-2022.0,Oliver Hansen,,,Copenhagen,3.4,87.0,,,,85.31,,,MONGODB,Very Good,Good,Passed
-2023.0,Rania Al-Surabi,,,Hodeidah,3.85,95.0,,,,85.31,,,MONGODB,Excellent,Good,Passed
-2024.0,Noah Becker,,,Berlin,2.85,76.0,,,,85.31,,,MONGODB,Good,Good,Passed
-2025.0,Fahd Al-Olofi,,,Sanaa,3.05,81.0,,,,85.31,,,MONGODB,Very Good,Good,Passed
-2026.0,Chloe Bennett,,,Sydney,3.72,93.0,,,,85.31,,,MONGODB,Excellent,Good,Passed
-2027.0,Basma Al-Ariqi,,,Taiz,3.55,90.0,,,,85.31,,,MONGODB,Excellent,Good,Passed
-2028.0,Julian Silva,,,Lisbon,2.3,65.0,,,,85.31,,,MONGODB,Acceptable,Low,Passed
-2029.0,Marwan Al-Wasabi,,,Ibb,3.48,86.0,,,,85.31,,,MONGODB,Very Good,Good,Passed
-2030.0,Mia Lindgren,,,Stockholm,3.92,99.0,,,,85.31,,,MONGODB,Excellent,Good,Passed
-2031.0,Taha Al-Saqqaf,,,Mukalla,2.6,72.0,,,,85.31,,,MONGODB,Good,Low,Passed
-2032.0,Alexander White,,,Chicago,3.18,84.0,,,,85.31,,,MONGODB,Very Good,Good,Passed
-2033.0,Abeer Al-Dailami,,,Sanaa,3.8,94.0,,,,85.31,,,MONGODB,Excellent,Good,Passed
-2034.0,David Suzuki,,,Tokyo,3.65,89.0,,,,85.31,,,MONGODB,Excellent,Good,Passed
-2035.0,Walid Al-Mikhlafi,,,Taiz,2.25,62.0,,,,85.31,,,MONGODB,Acceptable,Low,Passed
-2036.0,Clara Moreau,,,Marseille,3.5,88.0,,,,85.31,,,MONGODB,Excellent,Good,Passed
-2037.0,Zaid Al-Haimi,,,Sanaa,3.35,85.0,,,,85.31,,,MONGODB,Very Good,Good,Passed
-2038.0,Gabriel Santos,,,Sao Paulo,2.95,79.0,,,,85.31,,,MONGODB,Good,Good,Passed
-2039.0,Nour Al-Huda Al-Jabali,,,Aden,3.98,98.0,,,,85.31,,,MONGODB,Excellent,Good,Passed
-2040.0,Hannah Schmidt,,,Munich,3.22,82.0,,,,85.31,,,MONGODB,Very Good,Good,Passed
-2041.0,Mustafa Al-Basha,,,Hodeidah,2.5,69.0,,,,85.31,,,MONGODB,Good,Low,Passed
-2042.0,Ethan Brown,,,Boston,3.41,86.0,,,,85.31,,,MONGODB,Very Good,Good,Passed
-2043.0,Kholoud Al-Sharif,,,Sanaa,3.77,93.0,,,,85.31,,,MONGODB,Excellent,Good,Passed
-2044.0,Matteo Romano,,,Milan,2.8,73.0,,,,85.31,,,MONGODB,Good,Low,Passed
-2045.0,Abdulrahman Al-Washali,,,Dhamar,3.12,80.0,,,,85.31,,,MONGODB,Very Good,Good,Passed
-2046.0,Isabella Lopez,,,Barcelona,3.89,96.0,,,,85.31,,,MONGODB,Excellent,Good,Passed
-2047.0,Manal Al-Ghorafi,,,Taiz,3.63,91.0,,,,85.31,,,MONGODB,Excellent,Good,Passed
-2048.0,Felix Fischer,,,Vienna,1.7,50.0,,,,85.31,,,MONGODB,At Risk,Low,Passed
-2049.0,Salem Ba-Zuhair,,,Mukalla,3.28,84.0,,,,85.31,,,MONGODB,Very Good,Good,Passed
-2050.0,Lily Evans,,,Edinburgh,3.96,97.0,,,,85.31,,,MONGODB,Excellent,Good,Passed
-99999.0,Mystery Student,,,Cairo,3.0,80.0,,,,85.31,,,MONGODB,Very Good,Good,Passed
+1001.0,Ahmed Ali,21.0,Computer Science,Sanaa,3.85,95.0,Active,Python Programming,Fall 2025,90.0,Dean's List,2026,CSV + API + DATABASE + WEB_SCRAPER,Excellent,Good,Passed
+1002.0,Sara Mohammed,22.0,Artificial Intelligence,Aden,3.45,88.0,Active,Python Programming,Fall 2025,92.0,Cum Laude,2025,CSV + API + DATABASE + WEB_SCRAPER,Very Good,Good,Passed
+1003.0,Omar Hassan,20.0,Information Systems,Taiz,3.33,90.0,Active,Database Systems,Fall 2025,78.0,None,2027,CSV + API + DATABASE + WEB_SCRAPER,Very Good,Good,Passed
+1004.0,Mona Saleh,23.0,Software Engineering,Ibb,3.1,72.0,Active,Data Structures,Fall 2025,84.0,,,CSV + API + DATABASE,Very Good,Low,Passed
+1005.0,Ali Ahmed,21.0,Computer Science,Sanaa,2.75,82.0,Active,Python Programming,Fall 2025,74.0,,,CSV + API + DATABASE,Good,Good,Passed
+1006.0,Huda Omar,19.0,Information Technology,Sanaa,3.6,85.0,Active,Database Systems,Fall 2025,91.0,,,CSV + API + DATABASE,Excellent,Good,Passed
+1008.0,Fatima Adel,24.0,Computer Science,Taiz,1.85,55.0,At Risk,Data Structures,Fall 2025,58.0,,,CSV + API + DATABASE,At Risk,Low,Failed
+1009.0,Yousef Taha,22.0,Information Systems,Aden,3.2,85.0,Active,Cloud Computing,Fall 2025,82.0,,,CSV + API + DATABASE,Very Good,Good,Passed
+1013.0,Bilal Karim,22.0,Computer Science,Taiz,2.9,78.0,Active,Data Structures,Fall 2025,80.0,,,CSV + API + DATABASE,Good,Good,Passed
+2001.0,Ahmed Al-Mutawakel,21.0,Computer Science,Sanaa,3.82,95.0,Active,Database Systems,Fall 2025,92.0,Dean's List,2026.0,MONGODB,Excellent,Good,Passed
+2002.0,Sarah Connor,22.0,Cyber Security,London,3.45,88.0,Active,Network Security,Spring 2026,84.0,None,2026.0,MONGODB,Very Good,Good,Passed
+2003.0,Mohammed Ba-Habib,24.0,Information Systems,Aden,2.9,75.0,Active,Systems Analysis,Fall 2025,72.0,None,2025.0,MONGODB,Good,Good,Passed
+2004.0,Jessica Miller,20.0,AI & Data Science,New York,3.95,98.0,Active,Machine Learning,Spring 2026,97.0,First Class Honors,2027.0,MONGODB,Excellent,Good,Passed
+2005.0,Ali Al-Sabry,23.0,Software Engineering,Taiz,1.85,60.0,Probation,Data Structures,Fall 2025,55.0,None,2026.0,MONGODB,At Risk,Low,Failed
+2006.0,Lucas Dubois,21.0,Business Administration,Paris,3.1,82.0,Active,Corporate Finance,Fall 2025,78.0,None,2026.0,MONGODB,Very Good,Good,Passed
+2007.0,Fatima Al-Hamdani,22.0,Computer Science,Sanaa,4.0,100.0,Active,Cloud Computing,Spring 2026,99.0,Magna Cum Laude,2025.0,MONGODB,Excellent,Good,Passed
+2008.0,Daniel Craig,25.0,Civil Engineering,Manchester,2.65,70.0,Active,Structural Analysis,Fall 2025,68.0,None,2025.0,MONGODB,Good,Low,Passed
+2009.0,Hisham Al-Khatib,21.0,Architecture,Amman,3.3,85.0,Active,Urban Design,Spring 2026,81.0,None,2026.0,MONGODB,Very Good,Good,Passed
+2010.0,Elena Petrova,22.0,AI & Data Science,Moscow,3.75,92.0,Active,Deep Learning,Fall 2025,90.0,Dean's List,2026.0,MONGODB,Excellent,Good,Passed
+2011.0,Yara Al-Baidhani,20.0,Medicine,Ibb,3.6,94.0,Active,Human Anatomy,Spring 2026,88.0,Second Class Honors,2028.0,MONGODB,Excellent,Good,Passed
+2012.0,Marco Rossi,23.0,Mechanical Engineering,Rome,2.4,68.0,Probation,Thermodynamics,Fall 2025,63.0,None,2026.0,MONGODB,Acceptable,Low,Passed
+2013.0,Khaled Al-Jaradi,22.0,Electrical Engineering,Dhamar,3.15,80.0,Active,Circuit Theory,Spring 2026,79.0,None,2026.0,MONGODB,Very Good,Good,Passed
+2014.0,Sophie Martin,21.0,Graphic Design,Lyon,3.88,96.0,Active,UI/UX Architecture,Fall 2025,94.0,Dean's List,2026.0,MONGODB,Excellent,Good,Passed
+2015.0,Sami Al-Qubati,24.0,Accounting,Aden,2.1,55.0,Suspended,Auditing Principles,Fall 2025,52.0,None,2025.0,MONGODB,Acceptable,Low,Failed
+2016.0,Liam Smith,22.0,Software Engineering,Toronto,3.52,89.0,Active,DevOps & CI/CD,Spring 2026,86.0,Second Class Honors,2026.0,MONGODB,Excellent,Good,Passed
+2017.0,Bushra Al-Awadi,21.0,Information Systems,Sanaa,3.91,97.0,Active,Big Data Analytics,Fall 2025,95.0,Dean's List,2026.0,MONGODB,Excellent,Good,Passed
+2018.0,Carlos Santana,23.0,Civil Engineering,Madrid,2.75,74.0,Active,Hydraulics,Fall 2025,70.0,None,2026.0,MONGODB,Good,Low,Passed
+2019.0,Nabil Al-Madhaji,22.0,Cyber Security,Taiz,3.2,83.0,Active,Cryptography,Spring 2026,80.0,None,2026.0,MONGODB,Very Good,Good,Passed
+2020.0,Emma Watson,20.0,English Literature,Oxford,3.68,91.0,Active,Modernist Poetry,Fall 2025,89.0,Second Class Honors,2027.0,MONGODB,Excellent,Good,Passed
+2021.0,Hamoud Al-Ansi,25.0,Business Administration,Sanaa,1.95,58.0,Probation,Strategic Management,Fall 2025,58.0,None,2025.0,MONGODB,At Risk,Low,Failed
+2022.0,Oliver Hansen,22.0,Computer Science,Copenhagen,3.4,87.0,Active,Algorithms,Spring 2026,83.0,None,2026.0,MONGODB,Very Good,Good,Passed
+2023.0,Rania Al-Surabi,21.0,AI & Data Science,Hodeidah,3.85,95.0,Active,Computer Vision,Fall 2025,93.0,Dean's List,2026.0,MONGODB,Excellent,Good,Passed
+2024.0,Noah Becker,23.0,Electrical Engineering,Berlin,2.85,76.0,Active,Signals & Systems,Spring 2026,74.0,None,2026.0,MONGODB,Good,Good,Passed
+2025.0,Fahd Al-Olofi,22.0,Software Engineering,Sanaa,3.05,81.0,Active,Software Architecture,Fall 2025,77.0,None,2026.0,MONGODB,Very Good,Good,Passed
+2026.0,Chloe Bennett,21.0,Cyber Security,Sydney,3.72,93.0,Active,Ethical Hacking,Spring 2026,91.0,First Class Honors,2026.0,MONGODB,Excellent,Good,Passed
+2027.0,Basma Al-Ariqi,22.0,Medicine,Taiz,3.55,90.0,Active,Pathology,Fall 2025,87.0,Second Class Honors,2028.0,MONGODB,Excellent,Good,Passed
+2028.0,Julian Silva,24.0,Architecture,Lisbon,2.3,65.0,Active,Landscape Design,Fall 2025,61.0,None,2025.0,MONGODB,Acceptable,Low,Passed
+2029.0,Marwan Al-Wasabi,21.0,Information Systems,Ibb,3.48,86.0,Active,Enterprise Systems,Spring 2026,85.0,None,2026.0,MONGODB,Very Good,Good,Passed
+2030.0,Mia Lindgren,20.0,AI & Data Science,Stockholm,3.92,99.0,Active,Neural Networks,Fall 2025,96.0,Dean's List,2027.0,MONGODB,Excellent,Good,Passed
+2031.0,Taha Al-Saqqaf,23.0,Civil Engineering,Mukalla,2.6,72.0,Active,Geotechnical Engineering,Fall 2025,67.0,None,2026.0,MONGODB,Good,Low,Passed
+2032.0,Alexander White,22.0,Computer Science,Chicago,3.18,84.0,Active,Operating Systems,Spring 2026,79.0,None,2026.0,MONGODB,Very Good,Good,Passed
+2033.0,Abeer Al-Dailami,21.0,Software Engineering,Sanaa,3.8,94.0,Active,Mobile App Development,Fall 2025,92.0,First Class Honors,2026.0,MONGODB,Excellent,Good,Passed
+2034.0,David Suzuki,22.0,Cyber Security,Tokyo,3.65,89.0,Active,Digital Forensics,Spring 2026,88.0,Second Class Honors,2026.0,MONGODB,Excellent,Good,Passed
+2035.0,Walid Al-Mikhlafi,24.0,Accounting,Taiz,2.25,62.0,Probation,Cost Accounting,Fall 2025,60.0,None,2025.0,MONGODB,Acceptable,Low,Passed
+2036.0,Clara Moreau,21.0,Graphic Design,Marseille,3.5,88.0,Active,3D Animation,Fall 2025,85.0,None,2026.0,MONGODB,Excellent,Good,Passed
+2037.0,Zaid Al-Haimi,22.0,Information Systems,Sanaa,3.35,85.0,Active,E-Commerce Strategy,Spring 2026,82.0,None,2026.0,MONGODB,Very Good,Good,Passed
+2038.0,Gabriel Santos,23.0,Business Administration,Sao Paulo,2.95,79.0,Active,Marketing Analytics,Fall 2025,75.0,None,2026.0,MONGODB,Good,Good,Passed
+2039.0,Nour Al-Huda Al-Jabali,20.0,AI & Data Science,Aden,3.98,98.0,Active,Natural Language Processing,Spring 2026,98.0,Magna Cum Laude,2027.0,MONGODB,Excellent,Good,Passed
+2040.0,Hannah Schmidt,22.0,Electrical Engineering,Munich,3.22,82.0,Active,Embedded Systems,Fall 2025,81.0,None,2026.0,MONGODB,Very Good,Good,Passed
+2041.0,Mustafa Al-Basha,23.0,Civil Engineering,Hodeidah,2.5,69.0,Active,Concrete Design,Fall 2025,65.0,None,2026.0,MONGODB,Good,Low,Passed
+2042.0,Ethan Brown,21.0,Computer Science,Boston,3.41,86.0,Active,Compiler Design,Spring 2026,84.0,None,2026.0,MONGODB,Very Good,Good,Passed
+2043.0,Kholoud Al-Sharif,21.0,Medicine,Sanaa,3.77,93.0,Active,Pharmacology,Spring 2026,90.0,First Class Honors,2028.0,MONGODB,Excellent,Good,Passed
+2044.0,Matteo Romano,24.0,Mechanical Engineering,Milan,2.8,73.0,Active,Fluid Mechanics,Fall 2025,72.0,None,2025.0,MONGODB,Good,Low,Passed
+2045.0,Abdulrahman Al-Washali,22.0,Software Engineering,Dhamar,3.12,80.0,Active,Software Testing & QA,Fall 2025,78.0,None,2026.0,MONGODB,Very Good,Good,Passed
+2046.0,Isabella Lopez,20.0,AI & Data Science,Barcelona,3.89,96.0,Active,Reinforcement Learning,Spring 2026,94.0,Dean's List,2027.0,MONGODB,Excellent,Good,Passed
+2047.0,Manal Al-Ghorafi,22.0,Cyber Security,Taiz,3.63,91.0,Active,Incident Response,Fall 2025,87.0,Second Class Honors,2026.0,MONGODB,Excellent,Good,Passed
+2048.0,Felix Fischer,25.0,Accounting,Vienna,1.7,50.0,Withdrawn,Tax Law,Fall 2025,48.0,None,2025.0,MONGODB,At Risk,Low,Failed
+2049.0,Salem Ba-Zuhair,23.0,Architecture,Mukalla,3.28,84.0,Active,Sustainable Buildings,Spring 2026,80.0,None,2026.0,MONGODB,Very Good,Good,Passed
+2050.0,Lily Evans,21.0,English Literature,Edinburgh,3.96,97.0,Active,Creative Writing,Spring 2026,96.0,First Class Honors,2026.0,MONGODB,Excellent,Good,Passed
