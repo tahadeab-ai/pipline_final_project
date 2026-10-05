@@ -1,0 +1,26 @@
+[
+  {
+    "student_id": 1001,
+    "name": "Ahmed Ali",
+    "gpa": 3.5,
+    "attendance": 92,
+    "status": "Enrolled",
+    "city": "Sanaa"
+  },
+  {
+    "student_id": 1002,
+    "name": "Fatima Hassan",
+    "gpa": 3.8,
+    "attendance": 95,
+    "status": "Enrolled",
+    "city": "Aden"
+  },
+  {
+    "student_id": 1003,
+    "name": "Khaled Omar",
+    "gpa": 2.9,
+    "attendance": 80,
+    "status": "Enrolled",
+    "city": "Taiz"
+  }
+]

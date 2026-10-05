@@ -1,0 +1,9 @@
+student_id,name,age,gpa,attendance,city
+1001,Ahmed Ali,22,3.50,92,Sanaa
+1002,Sara Mohammed,21,3.80,96,Sanaa
+1003,Khaled Hassan,23,,88,Dhamar
+1004,Mona Saleh,20,4.20,94,Ibb
+1005,Ali Ahmed,-5,2.90,75,Taiz
+1006,Huda Omar,22,3.20,105,Sanaa
+1007,Ahmed Ali,22,3.50,92,Sanaa
+1008,Mohammed Noor,21,3.90,,Dhamar

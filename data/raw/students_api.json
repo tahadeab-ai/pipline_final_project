@@ -1,0 +1,15 @@
+[
+  {"student_id": 1001, "gpa": 3.85, "attendance": 95.0, "status": "Active"},
+  {"student_id": 1002, "gpa": 3.45, "attendance": 88.0, "status": "Active"},
+  {"student_id": 1003, "gpa": null, "attendance": 90.0, "status": "Active"},
+  {"student_id": 1004, "gpa": 3.10, "attendance": 72.0, "status": "Active"},
+  {"student_id": 1005, "gpa": 2.75, "attendance": 82.0, "status": "Active"},
+  {"student_id": 1006, "gpa": 3.60, "attendance": null, "status": "Active"},
+  {"student_id": 1007, "gpa": 2.20, "attendance": 65.0, "status": "Probation"},
+  {"student_id": 1008, "gpa": 1.85, "attendance": 55.0, "status": "At Risk"},
+  {"student_id": 1009, "gpa": 3.20, "attendance": 85.0, "status": "Active"},
+  {"student_id": 1010, "gpa": 4.85, "attendance": 90.0, "status": "Active"},
+  {"student_id": 1011, "gpa": 3.00, "attendance": 80.0, "status": "Active"},
+  {"student_id": 1012, "gpa": 3.40, "attendance": 125.0, "status": "Active"},
+  {"student_id": 1013, "gpa": 2.90, "attendance": 78.0, "status": "Active"}
+]

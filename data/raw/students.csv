@@ -1,0 +1,16 @@
+student_id,student_name,age,major,city
+1001,Ahmed Ali,21,Computer Science,Sanaa
+1002,Sara Mohammed,22,Artificial Intelligence,Aden
+1003,Omar Hassan,20,Information Systems,Taiz
+1004,Mona Saleh,23,Software Engineering,Ibb
+1005,Ali Ahmed,21,Computer Science, sanaa 
+1006,Huda Omar,19,Information Technology,SANAA
+1007,Khaled Nasser,-4,Cyber Security,Hodeidah
+1008,Fatima Adel,24,Computer Science,Taiz
+1009,Yousef Taha,22,Information Systems, Aden 
+1010,Reem Salem,20,Software Engineering,Ibb
+1001,Ahmed Ali,21,Computer Science,Sanaa
+1011,Nasser Saleh,115,Artificial Intelligence,Dhamar
+1012,Laila Murad,21,Data Science,Mukalla
+1013,Bilal Karim,22,Computer Science,Taiz
+,Unknown Student,20,Software Engineering,Sanaa

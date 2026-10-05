@@ -1,0 +1,68 @@
+student_id,error_reason,student_name,age,major,city,gpa,attendance,status,course,semester,score,student_name_source_1,gpa_source_1,attendance_source_1,city_source_1,academic_honors,graduation_year,data_lineage,performance_level,attendance_status,academic_standing
+-1032.0,Duplicate student_id (Rule 2),,,,,3.15,83.5,,,,85.31,Amina Al-Badani,3.4,90,Aden,,,SOURCE_1,Very Good,Good,Passed
+-999.0,Duplicate student_id (Rule 2),,,,,3.15,83.5,,,,85.31,Marwan Al-Ansi,2.2,60,Dhamar,,,SOURCE_1,Very Good,Good,Passed
+1007.0,Invalid Age: -4 (Rule 3),Khaled Nasser,-4,Cyber Security,Hodeidah,2.2,65.0,Probation,Python Programming,Fall 2025,68.0,Mohammed Noor,3.2,82,Sanaa,,,CSV + API + DATABASE + SOURCE_1,Acceptable,Low,Passed
+1010.0,Invalid GPA: 4.85 (Rule 4); Invalid Score: 150.0 (Rule 6),Reem Salem,20,Software Engineering,Ibb,4.85,90.0,Active,Machine Learning,Fall 2025,150.0,Layla Hussein,3.4,120,Hodeidah,,,CSV + API + DATABASE + SOURCE_1,Excellent,Good,Passed
+1011.0,Invalid Age: 115 (Rule 3),Nasser Saleh,115,Artificial Intelligence,Dhamar,3.0,80.0,Active,Python Programming,Fall 2025,77.0,Omar Abdullah,3.7,94,Mukalla,,,CSV + API + DATABASE + SOURCE_1,Very Good,Good,Passed
+1012.0,Invalid Attendance: 125.0% (Rule 5),Laila Murad,21,Data Science,Mukalla,3.4,125.0,Active,Database Systems,Fall 2025,85.0,Fatima Al-Zahra,,78,Sanaa,,,CSV + API + DATABASE + SOURCE_1,Very Good,Good,Passed
+1020.0,Duplicate student_id (Rule 2),,,,,3.15,83.5,,,,85.31,Omar Al-Kahlani,3.75,95,Sanaa,,,SOURCE_1,Very Good,Good,Passed
+1020.0,Duplicate student_id (Rule 2),,,,,3.15,83.5,,,,85.31,Omar Al-Kahlani,3.75,95,Sanaa,,,SOURCE_1,Very Good,Good,Passed
+1021.0,Duplicate student_id (Rule 2),,,,,3.15,83.5,,,,85.31,Emily Watson,3.9,98,London,,,SOURCE_1,Very Good,Good,Passed
+1021.0,Duplicate student_id (Rule 2),,,,,3.15,83.5,,,,85.31,Emily Watson,3.9,98,London,,,SOURCE_1,Very Good,Good,Passed
+1022.0,Duplicate student_id (Rule 2),,,,,3.15,83.5,,,,85.31,Tariq Mansoor,4.8,85,Aden,,,SOURCE_1,Very Good,Good,Passed
+1022.0,Duplicate student_id (Rule 2),,,,,3.15,83.5,,,,85.31,Tariq Mansoor,4.8,85,Aden,,,SOURCE_1,Very Good,Good,Passed
+1023.0,Duplicate student_id (Rule 2),,,,,3.15,83.5,,,,85.31,Sarah Jenkins,2.4,-5,New York,,,SOURCE_1,Very Good,Good,Passed
+1023.0,Duplicate student_id (Rule 2),,,,,3.15,83.5,,,,85.31,Sarah Jenkins,2.4,-5,New York,,,SOURCE_1,Very Good,Good,Passed
+1024.0,Duplicate student_id (Rule 2),,,,,3.15,83.5,,,,85.31,,3.1,88,Taiz,,,SOURCE_1,Very Good,Good,Passed
+1024.0,Duplicate student_id (Rule 2),,,,,3.15,83.5,,,,85.31,,3.1,88,Taiz,,,SOURCE_1,Very Good,Good,Passed
+1025.0,Duplicate student_id (Rule 2),,,,,3.15,83.5,,,,85.31,Alexander Schmidt,,76,Berlin,,,SOURCE_1,Very Good,Good,Passed
+1025.0,Duplicate student_id (Rule 2),,,,,3.15,83.5,,,,85.31,Alexander Schmidt,,76,Berlin,,,SOURCE_1,Very Good,Good,Passed
+1026.0,Duplicate student_id (Rule 2),,,,,3.15,83.5,,,,85.31,Reem Al-Absi,3.6,110,Ibb,,,SOURCE_1,Very Good,Good,Passed
+1026.0,Duplicate student_id (Rule 2),,,,,3.15,83.5,,,,85.31,Reem Al-Absi,3.6,110,Ibb,,,SOURCE_1,Very Good,Good,Passed
+1027.0,Duplicate student_id (Rule 2),,,,,3.15,83.5,,,,85.31,Michael Chang,1.8,65,Toronto,,,SOURCE_1,Very Good,Good,Passed
+1027.0,Duplicate student_id (Rule 2),,,,,3.15,83.5,,,,85.31,Michael Chang,1.8,65,Toronto,,,SOURCE_1,Very Good,Good,Passed
+1028.0,Duplicate student_id (Rule 2),,,,,3.15,83.5,,,,85.31,Zaidan Al-Qadi,-2,82,Sanaa,,,SOURCE_1,Very Good,Good,Passed
+1028.0,Duplicate student_id (Rule 2),,,,,3.15,83.5,,,,85.31,Zaidan Al-Qadi,-2,82,Sanaa,,,SOURCE_1,Very Good,Good,Passed
+1029.0,Duplicate student_id (Rule 2),,,,,3.15,83.5,,,,85.31,Chloe Dupont,3.85,92,Paris,,,SOURCE_1,Very Good,Good,Passed
+1029.0,Duplicate student_id (Rule 2),,,,,3.15,83.5,,,,85.31,Chloe Dupont,3.85,92,Paris,,,SOURCE_1,Very Good,Good,Passed
+1030.0,Duplicate student_id (Rule 2),,,,,3.15,83.5,,,,85.31,Yousef Al-Haddad,2.9,,Mukalla,,,SOURCE_1,Very Good,Good,Passed
+1030.0,Duplicate student_id (Rule 2),,,,,3.15,83.5,,,,85.31,Yousef Al-Haddad,2.9,,Mukalla,,,SOURCE_1,Very Good,Good,Passed
+1031.0,Duplicate student_id (Rule 2),,,,,3.15,83.5,,,,85.31,Lucas Silva,3.2,84,Sao Paulo,,,SOURCE_1,Very Good,Good,Passed
+1031.0,Duplicate student_id (Rule 2),,,,,3.15,83.5,,,,85.31,Lucas Silva,3.2,84,Sao Paulo,,,SOURCE_1,Very Good,Good,Passed
+1033.0,Duplicate student_id (Rule 2),,,,,3.15,83.5,,,,85.31,John Doe,0,0,Chicago,,,SOURCE_1,Very Good,Good,Passed
+1034.0,Duplicate student_id (Rule 2),,,,,3.15,83.5,,,,85.31,Nasser Al-Awlaqi,3.5,75,Shabwah,,,SOURCE_1,Very Good,Good,Passed
+1035.0,Duplicate student_id (Rule 2),,,,,3.15,83.5,,,,85.31,Sofia Rossi,3.95,99,Rome,,,SOURCE_1,Very Good,Good,Passed
+1036.0,Duplicate student_id (Rule 2),,,,,3.15,83.5,,,,85.31,Khaled Ba-Wazir,2.7,150,Hadhramout,,,SOURCE_1,Very Good,Good,Passed
+1037.0,Duplicate student_id (Rule 2),,,,,3.15,83.5,,,,85.31,Liam O'Connor,-0.8,70,Dublin,,,SOURCE_1,Very Good,Good,Passed
+1039.0,Duplicate student_id (Rule 2),,,,,3.15,83.5,,,,85.31,Mona Al-Sabahi,3.65,93,Sanaa,,,SOURCE_1,Very Good,Good,Passed
+1040.0,Duplicate student_id (Rule 2),,,,,3.15,83.5,,,,85.31,David Kim,4,100,Seoul,,,SOURCE_1,Very Good,Good,Passed
+1041.0,Duplicate student_id (Rule 2),,,,,3.15,83.5,,,,85.31,Hassan Al-Yamani,1.2,45,,,,SOURCE_1,Very Good,Good,Passed
+1042.0,Duplicate student_id (Rule 2),,,,,3.15,83.5,,,,85.31,Anna Ivanova,3.3,89,Moscow,,,SOURCE_1,Very Good,Good,Passed
+1043.0,Duplicate student_id (Rule 2),,,,,3.15,83.5,,,,85.31,,2.8,78,Amman,,,SOURCE_1,Very Good,Good,Passed
+1044.0,Duplicate student_id (Rule 2),,,,,3.15,83.5,,,,85.31,Hamza Al-Jabri,5.2,91,Taiz,,,SOURCE_1,Very Good,Good,Passed
+1045.0,Duplicate student_id (Rule 2),,,,,3.15,83.5,,,,85.31,Elena Garcia,3.15,87,Madrid,,,SOURCE_1,Very Good,Good,Passed
+1046.0,Duplicate student_id (Rule 2),,,,,3.15,83.5,,,,85.31,Waleed Al-Matari,2.5,-40,Sanaa,,,SOURCE_1,Very Good,Good,Passed
+1047.0,Duplicate student_id (Rule 2),,,,,3.15,83.5,,,,85.31,James Wilson,,,Boston,,,SOURCE_1,Very Good,Good,Passed
+1048.0,Duplicate student_id (Rule 2),,,,,3.15,83.5,,,,85.31,Samira Al-Huraibi,3.7,96,Ibb,,,SOURCE_1,Very Good,Good,Passed
+1049.0,Duplicate student_id (Rule 2),,,,,3.15,83.5,,,,85.31,Arjun Patel,3.45,88%,Mumbai,,,SOURCE_1,Very Good,Good,Passed
+1051.0,Duplicate student_id (Rule 2),,,,,3.15,83.5,,,,85.31,Olivia Brown,3.8,94,Sydney,,,SOURCE_1,Very Good,Good,Passed
+1052.0,Duplicate student_id (Rule 2),,,,,3.15,83.5,,,,85.31,Bashir Al-Thour,0.5,30,Sanaa,,,SOURCE_1,Very Good,Good,Passed
+1053.0,Duplicate student_id (Rule 2),,,,,3.15,83.5,,,,85.31,Hanna Lindqvist,3.6,102,Stockholm,,,SOURCE_1,Very Good,Good,Passed
+1054.0,Duplicate student_id (Rule 2),,,,,3.15,83.5,,,,85.31,Sultan Al-Shami,2.95,81,Hodeidah,,,SOURCE_1,Very Good,Good,Passed
+1055.0,Duplicate student_id (Rule 2),,,,,3.15,83.5,,,,85.31,Carlos Mendez,-3.1,50,Mexico City,,,SOURCE_1,Very Good,Good,Passed
+1056.0,Duplicate student_id (Rule 2),,,,,3.15,83.5,,,,85.31,Noura Al-Amari,3.88,97,Aden,,,SOURCE_1,Very Good,Good,Passed
+1057.0,Duplicate student_id (Rule 2),,,,,3.15,83.5,,,,85.31,Unknown_404,2,55,Virtual,,,SOURCE_1,Very Good,Good,Passed
+1058.0,Duplicate student_id (Rule 2),,,,,3.15,83.5,,,,85.31,Kenji Sato,3.5,90,Tokyo,,,SOURCE_1,Very Good,Good,Passed
+1059.0,Duplicate student_id (Rule 2),,,,,3.15,83.5,,,,85.31,Yahya Al-Washali,88.5,88,Sanaa,,,SOURCE_1,Very Good,Good,Passed
+1060.0,Duplicate student_id (Rule 2),,,,,3.15,83.5,,,,85.31,Amira Bouazizi,3.35,86,Tunis,,,SOURCE_1,Very Good,Good,Passed
+1061.0,Duplicate student_id (Rule 2),,,,,3.15,83.5,,,,85.31,Lukas Weber,2.7,-1,Vienna,,,SOURCE_1,Very Good,Good,Passed
+1062.0,Duplicate student_id (Rule 2),,,,,3.15,83.5,,,,85.31,Ibrahim Al-Faqih,3.9,95,Taiz,,,SOURCE_1,Very Good,Good,Passed
+1063.0,Duplicate student_id (Rule 2),,,,,3.15,83.5,,,,85.31,Fatou Diop,3.25,83,Dakar,,,SOURCE_1,Very Good,Good,Passed
+1064.0,Duplicate student_id (Rule 2),,,,,3.15,83.5,,,,85.31,12345,1.9,70,Riyadh,,,SOURCE_1,Very Good,Good,Passed
+1065.0,Duplicate student_id (Rule 2),,,,,3.15,83.5,,,,85.31,Huda Al-Ariqi,3.42,89,Aden,,,SOURCE_1,Very Good,Good,Passed
+1066.0,Duplicate student_id (Rule 2),,,,,3.15,83.5,,,,85.31,George Miller,,64,Manchester,,,SOURCE_1,Very Good,Good,Passed
+1067.0,Duplicate student_id (Rule 2),,,,,3.15,83.5,,,,85.31,Adel Al-Sayaghi,3.1,200,Sanaa,,,SOURCE_1,Very Good,Good,Passed
+1068.0,Duplicate student_id (Rule 2),,,,,3.15,83.5,,,,85.31,Zainab Al-Husseini,3.78,93,Baghdad,,,SOURCE_1,Very Good,Good,Passed
+1069.0,Duplicate student_id (Rule 2),,,,,3.15,83.5,,,,85.31,Mia Hansen,3.65,91,Copenhagen,,,SOURCE_1,Very Good,Good,Passed
+99999.0,Duplicate student_id (Rule 2),,,,,3.15,83.5,,,,85.31,Mystery Student,3,80,Cairo,,,SOURCE_1,Very Good,Good,Passed
+,Missing student_id (Rule 1),Unknown Student,20,Software Engineering,Sanaa,3.15,83.5,,,,85.31,Ghost Student,3,80,Sanaa,,,UNKNOWN,Very Good,Good,Passed
