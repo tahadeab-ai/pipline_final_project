@@ -29,9 +29,12 @@ class DataIntegrator:
         """
         logger.info("Data integration started across multiple sources")
 
+        default_extra_names = ["MONGODB", "WEB_SCRAPER"]
         source_dfs = [("CSV", csv_df), ("API", api_df), ("DATABASE", db_df)]
-        for i, extra_df in enumerate(additional_dfs, start=1):
-            name = getattr(extra_df, "_source_name", f"SOURCE_{i}")
+        for i, extra_df in enumerate(additional_dfs):
+            name = getattr(extra_df, "_source_name", None)
+            if not name:
+                name = default_extra_names[i] if i < len(default_extra_names) else f"SOURCE_{i+1}"
             source_dfs.append((name, extra_df))
 
         # Normalize join key type across all dataframes
@@ -48,13 +51,20 @@ class DataIntegrator:
                 df_copy[flag_col] = False
             normalized_dfs.append(df_copy)
 
-        # Step 1: Merge base sources successively
+        # Step 1: Successively merge sources on join_key and coalesce overlapping attributes
         integrated = normalized_dfs[0]
         for idx, df_to_merge in enumerate(normalized_dfs[1:], start=1):
             suffix = f"_{source_flags[idx][0].lower()}"
+            overlap_cols = [c for c in df_to_merge.columns if c in integrated.columns and c != self.join_key and not c.startswith("_has_")]
             integrated = pd.merge(integrated, df_to_merge, on=self.join_key, how=how, suffixes=("", suffix))
+            # Combine non-null values for overlapping columns
+            for col in overlap_cols:
+                extra_col = f"{col}{suffix}"
+                if extra_col in integrated.columns:
+                    integrated[col] = integrated[col].combine_first(integrated[extra_col])
+                    integrated.drop(columns=[extra_col], inplace=True)
 
-        # Compute Data Lineage (e.g., 'CSV + API + DATABASE')
+        # Compute Data Lineage (e.g., 'CSV + API + DATABASE + MONGODB')
         def compute_lineage(row):
             sources = [src_name for src_name, flag_col in source_flags if row.get(flag_col) is True]
             return " + ".join(sources) if sources else "UNKNOWN"

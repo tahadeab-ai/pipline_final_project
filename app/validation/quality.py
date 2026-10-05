@@ -49,11 +49,15 @@ class DataQualityValidator:
         df = df.copy()
         errors_per_row: List[List[str]] = [[] for _ in range(len(df))]
 
-        # Rule 1: student_id cannot be NULL
+        # Rule 1: student_id cannot be NULL and must be a valid positive ID
         if "student_id" in df.columns:
-            null_mask = df["student_id"].isna()
+            id_numeric = pd.to_numeric(df["student_id"], errors="coerce")
+            null_mask = id_numeric.isna()
+            invalid_id_mask = id_numeric.notna() & (id_numeric <= 0)
             for idx in df[null_mask].index:
                 errors_per_row[idx].append("Missing student_id (Rule 1)")
+            for idx in df[invalid_id_mask].index:
+                errors_per_row[idx].append(f"Invalid student_id: {df.loc[idx, 'student_id']} (Rule 1)")
 
         # Rule 2: student_id must be unique (flag duplicates beyond first)
         if "student_id" in df.columns:

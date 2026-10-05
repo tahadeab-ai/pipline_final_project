@@ -1,115 +1,98 @@
-student_id,student_name,age,major,city,gpa,attendance,status,course,semester,score,student_name_source_1,gpa_source_1,attendance_source_1,city_source_1,academic_honors,graduation_year,data_lineage,performance_level,attendance_status,academic_standing
--1032.0,,,,,3.15,83.5,,,,85.31,Amina Al-Badani,3.4,90,Aden,,,SOURCE_1,Very Good,Good,Passed
--999.0,,,,,3.15,83.5,,,,85.31,Marwan Al-Ansi,2.2,60,Dhamar,,,SOURCE_1,Very Good,Good,Passed
-1001.0,Ahmed Ali,21,Computer Science,Sanaa,3.85,95.0,Active,Python Programming,Fall 2025,90.0,Ahmed Ali,3.5,92,Sanaa,Dean's List,2026,CSV + API + DATABASE + SOURCE_1 + SOURCE_2,Excellent,Good,Passed
-1002.0,Sara Mohammed,22,Artificial Intelligence,Aden,3.45,88.0,Active,Python Programming,Fall 2025,92.0,Sara Mohammed,3.8,96,Dhamar,Cum Laude,2025,CSV + API + DATABASE + SOURCE_1 + SOURCE_2,Very Good,Good,Passed
-1003.0,Omar Hassan,20,Information Systems,Taiz,3.15,90.0,Active,Database Systems,Fall 2025,78.0,Khaled Hassan,3.1,88,Ibb,None,2027,CSV + API + DATABASE + SOURCE_1 + SOURCE_2,Very Good,Good,Passed
-1004.0,Mona Saleh,23,Software Engineering,Ibb,3.1,72.0,Active,Data Structures,Fall 2025,84.0,Mona Saleh,2.9,75,Taiz,,,CSV + API + DATABASE + SOURCE_1,Very Good,Low,Passed
-1005.0,Ali Ahmed,21,Computer Science,Sanaa,2.75,82.0,Active,Python Programming,Fall 2025,74.0,Ali Ahmed,3.9,98,Sanaa,,,CSV + API + DATABASE + SOURCE_1,Good,Good,Passed
-1006.0,Huda Omar,19,Information Technology,Sanaa,3.6,83.5,Active,Database Systems,Fall 2025,91.0,Huda Omar,2.5,65,Dhamar,,,CSV + API + DATABASE + SOURCE_1,Excellent,Good,Passed
-1008.0,Fatima Adel,24,Computer Science,Taiz,1.85,55.0,At Risk,Data Structures,Fall 2025,58.0,Noor Saleh,3.6,90,Sanaa,,,CSV + API + DATABASE + SOURCE_1,At Risk,Low,Failed
-1009.0,Yousef Taha,22,Information Systems,Aden,3.2,85.0,Active,Cloud Computing,Fall 2025,82.0,Yousef Karim,5,70,Aden,,,CSV + API + DATABASE + SOURCE_1,Very Good,Good,Passed
-1013.0,Bilal Karim,22,Computer Science,Taiz,2.9,78.0,Active,Data Structures,Fall 2025,80.0,Ibrahim Qasim,3.3,87,Taiz,,,CSV + API + DATABASE + SOURCE_1,Good,Good,Passed
-1015.0,,,,,3.15,83.5,,,,85.31,Salem Ba-Wazir,3.85,97,Mukalla,,,SOURCE_1,Very Good,Good,Passed
-1016.0,,,,,3.15,83.5,,,,85.31,,2.6,68,Sanaa,,,SOURCE_1,Very Good,Good,Passed
-1017.0,,,,,3.15,83.5,,,,85.31,Waleed Al-Radaei,3.45,89,Dhamar,,,SOURCE_1,Very Good,Good,Passed
-1018.0,,,,,3.15,83.5,,,,85.31,Dina Al-Sharabi,-0.5,99,Aden,,,SOURCE_1,Very Good,Good,Passed
-1019.0,,,,,3.15,83.5,,,,85.31,Bilal Al-Maqtari,2.1,-15,Hodeidah,,,SOURCE_1,Very Good,Good,Passed
-1020.0,,,,,3.15,83.5,,,,85.31,Omar Al-Kahlani,3.75,95,Sanaa,,,SOURCE_1,Very Good,Good,Passed
-1021.0,,,,,3.15,83.5,,,,85.31,Emily Watson,3.9,98,London,,,SOURCE_1,Very Good,Good,Passed
-1022.0,,,,,3.15,83.5,,,,85.31,Tariq Mansoor,4.8,85,Aden,,,SOURCE_1,Very Good,Good,Passed
-1023.0,,,,,3.15,83.5,,,,85.31,Sarah Jenkins,2.4,-5,New York,,,SOURCE_1,Very Good,Good,Passed
-1024.0,,,,,3.15,83.5,,,,85.31,,3.1,88,Taiz,,,SOURCE_1,Very Good,Good,Passed
-1025.0,,,,,3.15,83.5,,,,85.31,Alexander Schmidt,,76,Berlin,,,SOURCE_1,Very Good,Good,Passed
-1026.0,,,,,3.15,83.5,,,,85.31,Reem Al-Absi,3.6,110,Ibb,,,SOURCE_1,Very Good,Good,Passed
-1027.0,,,,,3.15,83.5,,,,85.31,Michael Chang,1.8,65,Toronto,,,SOURCE_1,Very Good,Good,Passed
-1028.0,,,,,3.15,83.5,,,,85.31,Zaidan Al-Qadi,-2,82,Sanaa,,,SOURCE_1,Very Good,Good,Passed
-1029.0,,,,,3.15,83.5,,,,85.31,Chloe Dupont,3.85,92,Paris,,,SOURCE_1,Very Good,Good,Passed
-1030.0,,,,,3.15,83.5,,,,85.31,Yousef Al-Haddad,2.9,,Mukalla,,,SOURCE_1,Very Good,Good,Passed
-1031.0,,,,,3.15,83.5,,,,85.31,Lucas Silva,3.2,84,Sao Paulo,,,SOURCE_1,Very Good,Good,Passed
-1033.0,,,,,3.15,83.5,,,,85.31,John Doe,0,0,Chicago,,,SOURCE_1,Very Good,Good,Passed
-1034.0,,,,,3.15,83.5,,,,85.31,Nasser Al-Awlaqi,3.5,75,Shabwah,,,SOURCE_1,Very Good,Good,Passed
-1035.0,,,,,3.15,83.5,,,,85.31,Sofia Rossi,3.95,99,Rome,,,SOURCE_1,Very Good,Good,Passed
-1036.0,,,,,3.15,83.5,,,,85.31,Khaled Ba-Wazir,2.7,150,Hadhramout,,,SOURCE_1,Very Good,Good,Passed
-1037.0,,,,,3.15,83.5,,,,85.31,Liam O'Connor,-0.8,70,Dublin,,,SOURCE_1,Very Good,Good,Passed
-1039.0,,,,,3.15,83.5,,,,85.31,Mona Al-Sabahi,3.65,93,Sanaa,,,SOURCE_1,Very Good,Good,Passed
-1040.0,,,,,3.15,83.5,,,,85.31,David Kim,4,100,Seoul,,,SOURCE_1,Very Good,Good,Passed
-1041.0,,,,,3.15,83.5,,,,85.31,Hassan Al-Yamani,1.2,45,,,,SOURCE_1,Very Good,Good,Passed
-1042.0,,,,,3.15,83.5,,,,85.31,Anna Ivanova,3.3,89,Moscow,,,SOURCE_1,Very Good,Good,Passed
-1043.0,,,,,3.15,83.5,,,,85.31,,2.8,78,Amman,,,SOURCE_1,Very Good,Good,Passed
-1044.0,,,,,3.15,83.5,,,,85.31,Hamza Al-Jabri,5.2,91,Taiz,,,SOURCE_1,Very Good,Good,Passed
-1045.0,,,,,3.15,83.5,,,,85.31,Elena Garcia,3.15,87,Madrid,,,SOURCE_1,Very Good,Good,Passed
-1046.0,,,,,3.15,83.5,,,,85.31,Waleed Al-Matari,2.5,-40,Sanaa,,,SOURCE_1,Very Good,Good,Passed
-1047.0,,,,,3.15,83.5,,,,85.31,James Wilson,,,Boston,,,SOURCE_1,Very Good,Good,Passed
-1048.0,,,,,3.15,83.5,,,,85.31,Samira Al-Huraibi,3.7,96,Ibb,,,SOURCE_1,Very Good,Good,Passed
-1049.0,,,,,3.15,83.5,,,,85.31,Arjun Patel,3.45,88%,Mumbai,,,SOURCE_1,Very Good,Good,Passed
-1051.0,,,,,3.15,83.5,,,,85.31,Olivia Brown,3.8,94,Sydney,,,SOURCE_1,Very Good,Good,Passed
-1052.0,,,,,3.15,83.5,,,,85.31,Bashir Al-Thour,0.5,30,Sanaa,,,SOURCE_1,Very Good,Good,Passed
-1053.0,,,,,3.15,83.5,,,,85.31,Hanna Lindqvist,3.6,102,Stockholm,,,SOURCE_1,Very Good,Good,Passed
-1054.0,,,,,3.15,83.5,,,,85.31,Sultan Al-Shami,2.95,81,Hodeidah,,,SOURCE_1,Very Good,Good,Passed
-1055.0,,,,,3.15,83.5,,,,85.31,Carlos Mendez,-3.1,50,Mexico City,,,SOURCE_1,Very Good,Good,Passed
-1056.0,,,,,3.15,83.5,,,,85.31,Noura Al-Amari,3.88,97,Aden,,,SOURCE_1,Very Good,Good,Passed
-1057.0,,,,,3.15,83.5,,,,85.31,Unknown_404,2,55,Virtual,,,SOURCE_1,Very Good,Good,Passed
-1058.0,,,,,3.15,83.5,,,,85.31,Kenji Sato,3.5,90,Tokyo,,,SOURCE_1,Very Good,Good,Passed
-1059.0,,,,,3.15,83.5,,,,85.31,Yahya Al-Washali,88.5,88,Sanaa,,,SOURCE_1,Very Good,Good,Passed
-1060.0,,,,,3.15,83.5,,,,85.31,Amira Bouazizi,3.35,86,Tunis,,,SOURCE_1,Very Good,Good,Passed
-1061.0,,,,,3.15,83.5,,,,85.31,Lukas Weber,2.7,-1,Vienna,,,SOURCE_1,Very Good,Good,Passed
-1062.0,,,,,3.15,83.5,,,,85.31,Ibrahim Al-Faqih,3.9,95,Taiz,,,SOURCE_1,Very Good,Good,Passed
-1063.0,,,,,3.15,83.5,,,,85.31,Fatou Diop,3.25,83,Dakar,,,SOURCE_1,Very Good,Good,Passed
-1064.0,,,,,3.15,83.5,,,,85.31,12345,1.9,70,Riyadh,,,SOURCE_1,Very Good,Good,Passed
-1065.0,,,,,3.15,83.5,,,,85.31,Huda Al-Ariqi,3.42,89,Aden,,,SOURCE_1,Very Good,Good,Passed
-1066.0,,,,,3.15,83.5,,,,85.31,George Miller,,64,Manchester,,,SOURCE_1,Very Good,Good,Passed
-1067.0,,,,,3.15,83.5,,,,85.31,Adel Al-Sayaghi,3.1,200,Sanaa,,,SOURCE_1,Very Good,Good,Passed
-1068.0,,,,,3.15,83.5,,,,85.31,Zainab Al-Husseini,3.78,93,Baghdad,,,SOURCE_1,Very Good,Good,Passed
-1069.0,,,,,3.15,83.5,,,,85.31,Mia Hansen,3.65,91,Copenhagen,,,SOURCE_1,Very Good,Good,Passed
-2001.0,,,,,3.15,83.5,,,,85.31,Ahmed Al-Mutawakel,3.82,95,Sanaa,,,SOURCE_1,Very Good,Good,Passed
-2002.0,,,,,3.15,83.5,,,,85.31,Sarah Connor,3.45,88,London,,,SOURCE_1,Very Good,Good,Passed
-2003.0,,,,,3.15,83.5,,,,85.31,Mohammed Ba-Habib,2.9,75,Aden,,,SOURCE_1,Very Good,Good,Passed
-2004.0,,,,,3.15,83.5,,,,85.31,Jessica Miller,3.95,98,New York,,,SOURCE_1,Very Good,Good,Passed
-2005.0,,,,,3.15,83.5,,,,85.31,Ali Al-Sabry,1.85,60,Taiz,,,SOURCE_1,Very Good,Good,Passed
-2006.0,,,,,3.15,83.5,,,,85.31,Lucas Dubois,3.1,82,Paris,,,SOURCE_1,Very Good,Good,Passed
-2007.0,,,,,3.15,83.5,,,,85.31,Fatima Al-Hamdani,4,100,Sanaa,,,SOURCE_1,Very Good,Good,Passed
-2008.0,,,,,3.15,83.5,,,,85.31,Daniel Craig,2.65,70,Manchester,,,SOURCE_1,Very Good,Good,Passed
-2009.0,,,,,3.15,83.5,,,,85.31,Hisham Al-Khatib,3.3,85,Amman,,,SOURCE_1,Very Good,Good,Passed
-2010.0,,,,,3.15,83.5,,,,85.31,Elena Petrova,3.75,92,Moscow,,,SOURCE_1,Very Good,Good,Passed
-2011.0,,,,,3.15,83.5,,,,85.31,Yara Al-Baidhani,3.6,94,Ibb,,,SOURCE_1,Very Good,Good,Passed
-2012.0,,,,,3.15,83.5,,,,85.31,Marco Rossi,2.4,68,Rome,,,SOURCE_1,Very Good,Good,Passed
-2013.0,,,,,3.15,83.5,,,,85.31,Khaled Al-Jaradi,3.15,80,Dhamar,,,SOURCE_1,Very Good,Good,Passed
-2014.0,,,,,3.15,83.5,,,,85.31,Sophie Martin,3.88,96,Lyon,,,SOURCE_1,Very Good,Good,Passed
-2015.0,,,,,3.15,83.5,,,,85.31,Sami Al-Qubati,2.1,55,Aden,,,SOURCE_1,Very Good,Good,Passed
-2016.0,,,,,3.15,83.5,,,,85.31,Liam Smith,3.52,89,Toronto,,,SOURCE_1,Very Good,Good,Passed
-2017.0,,,,,3.15,83.5,,,,85.31,Bushra Al-Awadi,3.91,97,Sanaa,,,SOURCE_1,Very Good,Good,Passed
-2018.0,,,,,3.15,83.5,,,,85.31,Carlos Santana,2.75,74,Madrid,,,SOURCE_1,Very Good,Good,Passed
-2019.0,,,,,3.15,83.5,,,,85.31,Nabil Al-Madhaji,3.2,83,Taiz,,,SOURCE_1,Very Good,Good,Passed
-2020.0,,,,,3.15,83.5,,,,85.31,Emma Watson,3.68,91,Oxford,,,SOURCE_1,Very Good,Good,Passed
-2021.0,,,,,3.15,83.5,,,,85.31,Hamoud Al-Ansi,1.95,58,Sanaa,,,SOURCE_1,Very Good,Good,Passed
-2022.0,,,,,3.15,83.5,,,,85.31,Oliver Hansen,3.4,87,Copenhagen,,,SOURCE_1,Very Good,Good,Passed
-2023.0,,,,,3.15,83.5,,,,85.31,Rania Al-Surabi,3.85,95,Hodeidah,,,SOURCE_1,Very Good,Good,Passed
-2024.0,,,,,3.15,83.5,,,,85.31,Noah Becker,2.85,76,Berlin,,,SOURCE_1,Very Good,Good,Passed
-2025.0,,,,,3.15,83.5,,,,85.31,Fahd Al-Olofi,3.05,81,Sanaa,,,SOURCE_1,Very Good,Good,Passed
-2026.0,,,,,3.15,83.5,,,,85.31,Chloe Bennett,3.72,93,Sydney,,,SOURCE_1,Very Good,Good,Passed
-2027.0,,,,,3.15,83.5,,,,85.31,Basma Al-Ariqi,3.55,90,Taiz,,,SOURCE_1,Very Good,Good,Passed
-2028.0,,,,,3.15,83.5,,,,85.31,Julian Silva,2.3,65,Lisbon,,,SOURCE_1,Very Good,Good,Passed
-2029.0,,,,,3.15,83.5,,,,85.31,Marwan Al-Wasabi,3.48,86,Ibb,,,SOURCE_1,Very Good,Good,Passed
-2030.0,,,,,3.15,83.5,,,,85.31,Mia Lindgren,3.92,99,Stockholm,,,SOURCE_1,Very Good,Good,Passed
-2031.0,,,,,3.15,83.5,,,,85.31,Taha Al-Saqqaf,2.6,72,Mukalla,,,SOURCE_1,Very Good,Good,Passed
-2032.0,,,,,3.15,83.5,,,,85.31,Alexander White,3.18,84,Chicago,,,SOURCE_1,Very Good,Good,Passed
-2033.0,,,,,3.15,83.5,,,,85.31,Abeer Al-Dailami,3.8,94,Sanaa,,,SOURCE_1,Very Good,Good,Passed
-2034.0,,,,,3.15,83.5,,,,85.31,David Suzuki,3.65,89,Tokyo,,,SOURCE_1,Very Good,Good,Passed
-2035.0,,,,,3.15,83.5,,,,85.31,Walid Al-Mikhlafi,2.25,62,Taiz,,,SOURCE_1,Very Good,Good,Passed
-2036.0,,,,,3.15,83.5,,,,85.31,Clara Moreau,3.5,88,Marseille,,,SOURCE_1,Very Good,Good,Passed
-2037.0,,,,,3.15,83.5,,,,85.31,Zaid Al-Haimi,3.35,85,Sanaa,,,SOURCE_1,Very Good,Good,Passed
-2038.0,,,,,3.15,83.5,,,,85.31,Gabriel Santos,2.95,79,Sao Paulo,,,SOURCE_1,Very Good,Good,Passed
-2039.0,,,,,3.15,83.5,,,,85.31,Nour Al-Huda Al-Jabali,3.98,98,Aden,,,SOURCE_1,Very Good,Good,Passed
-2040.0,,,,,3.15,83.5,,,,85.31,Hannah Schmidt,3.22,82,Munich,,,SOURCE_1,Very Good,Good,Passed
-2041.0,,,,,3.15,83.5,,,,85.31,Mustafa Al-Basha,2.5,69,Hodeidah,,,SOURCE_1,Very Good,Good,Passed
-2042.0,,,,,3.15,83.5,,,,85.31,Ethan Brown,3.41,86,Boston,,,SOURCE_1,Very Good,Good,Passed
-2043.0,,,,,3.15,83.5,,,,85.31,Kholoud Al-Sharif,3.77,93,Sanaa,,,SOURCE_1,Very Good,Good,Passed
-2044.0,,,,,3.15,83.5,,,,85.31,Matteo Romano,2.8,73,Milan,,,SOURCE_1,Very Good,Good,Passed
-2045.0,,,,,3.15,83.5,,,,85.31,Abdulrahman Al-Washali,3.12,80,Dhamar,,,SOURCE_1,Very Good,Good,Passed
-2046.0,,,,,3.15,83.5,,,,85.31,Isabella Lopez,3.89,96,Barcelona,,,SOURCE_1,Very Good,Good,Passed
-2047.0,,,,,3.15,83.5,,,,85.31,Manal Al-Ghorafi,3.63,91,Taiz,,,SOURCE_1,Very Good,Good,Passed
-2048.0,,,,,3.15,83.5,,,,85.31,Felix Fischer,1.7,50,Vienna,,,SOURCE_1,Very Good,Good,Passed
-2049.0,,,,,3.15,83.5,,,,85.31,Salem Ba-Zuhair,3.28,84,Mukalla,,,SOURCE_1,Very Good,Good,Passed
-2050.0,,,,,3.15,83.5,,,,85.31,Lily Evans,3.96,97,Edinburgh,,,SOURCE_1,Very Good,Good,Passed
-99999.0,,,,,3.15,83.5,,,,85.31,Mystery Student,3,80,Cairo,,,SOURCE_1,Very Good,Good,Passed
+student_id,student_name,age,major,city,gpa,attendance,status,course,semester,score,academic_honors,graduation_year,data_lineage,performance_level,attendance_status,academic_standing
+1001.0,Ahmed Ali,21.0,Computer Science,Sanaa,3.85,95.0,Active,Python Programming,Fall 2025,90.0,Dean's List,2026,CSV + API + DATABASE + MONGODB + WEB_SCRAPER,Excellent,Good,Passed
+1002.0,Sara Mohammed,22.0,Artificial Intelligence,Aden,3.45,88.0,Active,Python Programming,Fall 2025,92.0,Cum Laude,2025,CSV + API + DATABASE + MONGODB + WEB_SCRAPER,Very Good,Good,Passed
+1003.0,Omar Hassan,20.0,Information Systems,Taiz,3.1,90.0,Active,Database Systems,Fall 2025,78.0,None,2027,CSV + API + DATABASE + MONGODB + WEB_SCRAPER,Very Good,Good,Passed
+1004.0,Mona Saleh,23.0,Software Engineering,Ibb,3.1,72.0,Active,Data Structures,Fall 2025,84.0,,,CSV + API + DATABASE + MONGODB,Very Good,Low,Passed
+1005.0,Ali Ahmed,21.0,Computer Science,Sanaa,2.75,82.0,Active,Python Programming,Fall 2025,74.0,,,CSV + API + DATABASE + MONGODB,Good,Good,Passed
+1006.0,Huda Omar,19.0,Information Technology,Sanaa,3.6,65.0,Active,Database Systems,Fall 2025,91.0,,,CSV + API + DATABASE + MONGODB,Excellent,Low,Passed
+1008.0,Fatima Adel,24.0,Computer Science,Taiz,1.85,55.0,At Risk,Data Structures,Fall 2025,58.0,,,CSV + API + DATABASE + MONGODB,At Risk,Low,Failed
+1009.0,Yousef Taha,22.0,Information Systems,Aden,3.2,85.0,Active,Cloud Computing,Fall 2025,82.0,,,CSV + API + DATABASE + MONGODB,Very Good,Good,Passed
+1013.0,Bilal Karim,22.0,Computer Science,Taiz,2.9,78.0,Active,Data Structures,Fall 2025,80.0,,,CSV + API + DATABASE + MONGODB,Good,Good,Passed
+1015.0,Salem Ba-Wazir,,,Mukalla,3.85,97.0,,,,85.31,,,MONGODB,Excellent,Good,Passed
+1016.0,,,,Sanaa,2.6,68.0,,,,85.31,,,MONGODB,Good,Low,Passed
+1017.0,Waleed Al-Radaei,,,Dhamar,3.45,89.0,,,,85.31,,,MONGODB,Very Good,Good,Passed
+1020.0,Omar Al-Kahlani,,,Sanaa,3.75,95.0,,,,85.31,,,MONGODB,Excellent,Good,Passed
+1021.0,Emily Watson,,,London,3.9,98.0,,,,85.31,,,MONGODB,Excellent,Good,Passed
+1024.0,,,,Taiz,3.1,88.0,,,,85.31,,,MONGODB,Very Good,Good,Passed
+1025.0,Alexander Schmidt,,,Berlin,3.29,76.0,,,,85.31,,,MONGODB,Very Good,Good,Passed
+1027.0,Michael Chang,,,Toronto,1.8,65.0,,,,85.31,,,MONGODB,At Risk,Low,Passed
+1029.0,Chloe Dupont,,,Paris,3.85,92.0,,,,85.31,,,MONGODB,Excellent,Good,Passed
+1030.0,Yousef Al-Haddad,,,Mukalla,2.9,86.0,,,,85.31,,,MONGODB,Good,Good,Passed
+1031.0,Lucas Silva,,,Sao Paulo,3.2,84.0,,,,85.31,,,MONGODB,Very Good,Good,Passed
+1033.0,John Doe,,,Chicago,0.0,0.0,,,,85.31,,,MONGODB,At Risk,Low,Passed
+1034.0,Nasser Al-Awlaqi,,,Shabwah,3.5,75.0,,,,85.31,,,MONGODB,Excellent,Good,Passed
+1035.0,Sofia Rossi,,,Rome,3.95,99.0,,,,85.31,,,MONGODB,Excellent,Good,Passed
+1039.0,Mona Al-Sabahi,,,Sanaa,3.65,93.0,,,,85.31,,,MONGODB,Excellent,Good,Passed
+1040.0,David Kim,,,Seoul,4.0,100.0,,,,85.31,,,MONGODB,Excellent,Good,Passed
+1041.0,Hassan Al-Yamani,,,,1.2,45.0,,,,85.31,,,MONGODB,At Risk,Low,Passed
+1042.0,Anna Ivanova,,,Moscow,3.3,89.0,,,,85.31,,,MONGODB,Very Good,Good,Passed
+1043.0,,,,Amman,2.8,78.0,,,,85.31,,,MONGODB,Good,Good,Passed
+1045.0,Elena Garcia,,,Madrid,3.15,87.0,,,,85.31,,,MONGODB,Very Good,Good,Passed
+1047.0,James Wilson,,,Boston,3.29,86.0,,,,85.31,,,MONGODB,Very Good,Good,Passed
+1048.0,Samira Al-Huraibi,,,Ibb,3.7,96.0,,,,85.31,,,MONGODB,Excellent,Good,Passed
+1049.0,Arjun Patel,,,Mumbai,3.45,88.0,,,,85.31,,,MONGODB,Very Good,Good,Passed
+1051.0,Olivia Brown,,,Sydney,3.8,94.0,,,,85.31,,,MONGODB,Excellent,Good,Passed
+1052.0,Bashir Al-Thour,,,Sanaa,0.5,30.0,,,,85.31,,,MONGODB,At Risk,Low,Passed
+1054.0,Sultan Al-Shami,,,Hodeidah,2.95,81.0,,,,85.31,,,MONGODB,Good,Good,Passed
+1056.0,Noura Al-Amari,,,Aden,3.88,97.0,,,,85.31,,,MONGODB,Excellent,Good,Passed
+1057.0,Unknown_404,,,Virtual,2.0,55.0,,,,85.31,,,MONGODB,Acceptable,Low,Passed
+1058.0,Kenji Sato,,,Tokyo,3.5,90.0,,,,85.31,,,MONGODB,Excellent,Good,Passed
+1060.0,Amira Bouazizi,,,Tunis,3.35,86.0,,,,85.31,,,MONGODB,Very Good,Good,Passed
+1062.0,Ibrahim Al-Faqih,,,Taiz,3.9,95.0,,,,85.31,,,MONGODB,Excellent,Good,Passed
+1063.0,Fatou Diop,,,Dakar,3.25,83.0,,,,85.31,,,MONGODB,Very Good,Good,Passed
+1064.0,12345,,,Riyadh,1.9,70.0,,,,85.31,,,MONGODB,At Risk,Low,Passed
+1065.0,Huda Al-Ariqi,,,Aden,3.42,89.0,,,,85.31,,,MONGODB,Very Good,Good,Passed
+1066.0,George Miller,,,Manchester,3.29,64.0,,,,85.31,,,MONGODB,Very Good,Low,Passed
+1068.0,Zainab Al-Husseini,,,Baghdad,3.78,93.0,,,,85.31,,,MONGODB,Excellent,Good,Passed
+1069.0,Mia Hansen,,,Copenhagen,3.65,91.0,,,,85.31,,,MONGODB,Excellent,Good,Passed
+2001.0,Ahmed Al-Mutawakel,,,Sanaa,3.82,95.0,,,,85.31,,,MONGODB,Excellent,Good,Passed
+2002.0,Sarah Connor,,,London,3.45,88.0,,,,85.31,,,MONGODB,Very Good,Good,Passed
+2003.0,Mohammed Ba-Habib,,,Aden,2.9,75.0,,,,85.31,,,MONGODB,Good,Good,Passed
+2004.0,Jessica Miller,,,New York,3.95,98.0,,,,85.31,,,MONGODB,Excellent,Good,Passed
+2005.0,Ali Al-Sabry,,,Taiz,1.85,60.0,,,,85.31,,,MONGODB,At Risk,Low,Passed
+2006.0,Lucas Dubois,,,Paris,3.1,82.0,,,,85.31,,,MONGODB,Very Good,Good,Passed
+2007.0,Fatima Al-Hamdani,,,Sanaa,4.0,100.0,,,,85.31,,,MONGODB,Excellent,Good,Passed
+2008.0,Daniel Craig,,,Manchester,2.65,70.0,,,,85.31,,,MONGODB,Good,Low,Passed
+2009.0,Hisham Al-Khatib,,,Amman,3.3,85.0,,,,85.31,,,MONGODB,Very Good,Good,Passed
+2010.0,Elena Petrova,,,Moscow,3.75,92.0,,,,85.31,,,MONGODB,Excellent,Good,Passed
+2011.0,Yara Al-Baidhani,,,Ibb,3.6,94.0,,,,85.31,,,MONGODB,Excellent,Good,Passed
+2012.0,Marco Rossi,,,Rome,2.4,68.0,,,,85.31,,,MONGODB,Acceptable,Low,Passed
+2013.0,Khaled Al-Jaradi,,,Dhamar,3.15,80.0,,,,85.31,,,MONGODB,Very Good,Good,Passed
+2014.0,Sophie Martin,,,Lyon,3.88,96.0,,,,85.31,,,MONGODB,Excellent,Good,Passed
+2015.0,Sami Al-Qubati,,,Aden,2.1,55.0,,,,85.31,,,MONGODB,Acceptable,Low,Passed
+2016.0,Liam Smith,,,Toronto,3.52,89.0,,,,85.31,,,MONGODB,Excellent,Good,Passed
+2017.0,Bushra Al-Awadi,,,Sanaa,3.91,97.0,,,,85.31,,,MONGODB,Excellent,Good,Passed
+2018.0,Carlos Santana,,,Madrid,2.75,74.0,,,,85.31,,,MONGODB,Good,Low,Passed
+2019.0,Nabil Al-Madhaji,,,Taiz,3.2,83.0,,,,85.31,,,MONGODB,Very Good,Good,Passed
+2020.0,Emma Watson,,,Oxford,3.68,91.0,,,,85.31,,,MONGODB,Excellent,Good,Passed
+2021.0,Hamoud Al-Ansi,,,Sanaa,1.95,58.0,,,,85.31,,,MONGODB,At Risk,Low,Passed
+2022.0,Oliver Hansen,,,Copenhagen,3.4,87.0,,,,85.31,,,MONGODB,Very Good,Good,Passed
+2023.0,Rania Al-Surabi,,,Hodeidah,3.85,95.0,,,,85.31,,,MONGODB,Excellent,Good,Passed
+2024.0,Noah Becker,,,Berlin,2.85,76.0,,,,85.31,,,MONGODB,Good,Good,Passed
+2025.0,Fahd Al-Olofi,,,Sanaa,3.05,81.0,,,,85.31,,,MONGODB,Very Good,Good,Passed
+2026.0,Chloe Bennett,,,Sydney,3.72,93.0,,,,85.31,,,MONGODB,Excellent,Good,Passed
+2027.0,Basma Al-Ariqi,,,Taiz,3.55,90.0,,,,85.31,,,MONGODB,Excellent,Good,Passed
+2028.0,Julian Silva,,,Lisbon,2.3,65.0,,,,85.31,,,MONGODB,Acceptable,Low,Passed
+2029.0,Marwan Al-Wasabi,,,Ibb,3.48,86.0,,,,85.31,,,MONGODB,Very Good,Good,Passed
+2030.0,Mia Lindgren,,,Stockholm,3.92,99.0,,,,85.31,,,MONGODB,Excellent,Good,Passed
+2031.0,Taha Al-Saqqaf,,,Mukalla,2.6,72.0,,,,85.31,,,MONGODB,Good,Low,Passed
+2032.0,Alexander White,,,Chicago,3.18,84.0,,,,85.31,,,MONGODB,Very Good,Good,Passed
+2033.0,Abeer Al-Dailami,,,Sanaa,3.8,94.0,,,,85.31,,,MONGODB,Excellent,Good,Passed
+2034.0,David Suzuki,,,Tokyo,3.65,89.0,,,,85.31,,,MONGODB,Excellent,Good,Passed
+2035.0,Walid Al-Mikhlafi,,,Taiz,2.25,62.0,,,,85.31,,,MONGODB,Acceptable,Low,Passed
+2036.0,Clara Moreau,,,Marseille,3.5,88.0,,,,85.31,,,MONGODB,Excellent,Good,Passed
+2037.0,Zaid Al-Haimi,,,Sanaa,3.35,85.0,,,,85.31,,,MONGODB,Very Good,Good,Passed
+2038.0,Gabriel Santos,,,Sao Paulo,2.95,79.0,,,,85.31,,,MONGODB,Good,Good,Passed
+2039.0,Nour Al-Huda Al-Jabali,,,Aden,3.98,98.0,,,,85.31,,,MONGODB,Excellent,Good,Passed
+2040.0,Hannah Schmidt,,,Munich,3.22,82.0,,,,85.31,,,MONGODB,Very Good,Good,Passed
+2041.0,Mustafa Al-Basha,,,Hodeidah,2.5,69.0,,,,85.31,,,MONGODB,Good,Low,Passed
+2042.0,Ethan Brown,,,Boston,3.41,86.0,,,,85.31,,,MONGODB,Very Good,Good,Passed
+2043.0,Kholoud Al-Sharif,,,Sanaa,3.77,93.0,,,,85.31,,,MONGODB,Excellent,Good,Passed
+2044.0,Matteo Romano,,,Milan,2.8,73.0,,,,85.31,,,MONGODB,Good,Low,Passed
+2045.0,Abdulrahman Al-Washali,,,Dhamar,3.12,80.0,,,,85.31,,,MONGODB,Very Good,Good,Passed
+2046.0,Isabella Lopez,,,Barcelona,3.89,96.0,,,,85.31,,,MONGODB,Excellent,Good,Passed
+2047.0,Manal Al-Ghorafi,,,Taiz,3.63,91.0,,,,85.31,,,MONGODB,Excellent,Good,Passed
+2048.0,Felix Fischer,,,Vienna,1.7,50.0,,,,85.31,,,MONGODB,At Risk,Low,Passed
+2049.0,Salem Ba-Zuhair,,,Mukalla,3.28,84.0,,,,85.31,,,MONGODB,Very Good,Good,Passed
+2050.0,Lily Evans,,,Edinburgh,3.96,97.0,,,,85.31,,,MONGODB,Excellent,Good,Passed
+99999.0,Mystery Student,,,Cairo,3.0,80.0,,,,85.31,,,MONGODB,Very Good,Good,Passed

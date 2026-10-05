@@ -46,21 +46,27 @@ class DataTransformer:
         """Converts raw string fields to appropriate numeric and textual types."""
         df = df.copy()
 
+        # Helper to clean percentage signs and whitespace from strings before numeric conversion
+        def clean_num_series(series: pd.Series) -> pd.Series:
+            s_str = series.astype(str).str.replace("%", "", regex=False).str.strip()
+            s_str = s_str.replace(["nan", "None", "<NA>", ""], np.nan)
+            return pd.to_numeric(s_str, errors="coerce")
+
         # Numeric conversions
         if "student_id" in df.columns:
-            df["student_id"] = pd.to_numeric(df["student_id"], errors="coerce")
+            df["student_id"] = clean_num_series(df["student_id"])
 
         if "age" in df.columns:
-            df["age"] = pd.to_numeric(df["age"], errors="coerce")
+            df["age"] = clean_num_series(df["age"])
 
         if "gpa" in df.columns:
-            df["gpa"] = pd.to_numeric(df["gpa"], errors="coerce").round(2)
+            df["gpa"] = clean_num_series(df["gpa"]).round(2)
 
         if "attendance" in df.columns:
-            df["attendance"] = pd.to_numeric(df["attendance"], errors="coerce").round(1)
+            df["attendance"] = clean_num_series(df["attendance"]).round(1)
 
         if "score" in df.columns:
-            df["score"] = pd.to_numeric(df["score"], errors="coerce").round(2)
+            df["score"] = clean_num_series(df["score"]).round(2)
 
         return df
 
